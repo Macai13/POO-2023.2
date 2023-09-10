@@ -1,3 +1,5 @@
 # POO-2023.2
-## Moodle:
-    digite 'make exec' para executar os códigos
+## Moodle - comandos:
+    make all
+    make build
+    make exec
