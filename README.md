@@ -2,8 +2,8 @@
 
 ## Moodle - comandos:
 
-    > make all
+    make all
 
-    > make build
-    
-    > make exec
+    make build
+
+    make exec
