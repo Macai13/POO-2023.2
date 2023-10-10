@@ -1,0 +1,23 @@
+init 20
+show
+addCoin 10
+show
+addCoin 50
+show
+addItem carteira 1
+show
+extractItems
+extractCoins
+show
+break
+show
+extractItems
+extractCoins
+show
+addCoin 25
+show
+init 40
+addCoin 100
+addItem Vaca 40
+show
+end
