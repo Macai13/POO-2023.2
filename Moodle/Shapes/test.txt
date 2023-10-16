@@ -1,0 +1,12 @@
+show
+info
+rect 1 2 3 4
+show
+circle 3 4 5
+rect 4 10 20 30
+show
+info
+circle 1 10 20
+show
+info
+end
