@@ -1,0 +1,16 @@
+show
+addCli Maria
+addCli Juao
+show
+deposito 0 100
+deposito 1 200
+deposito 3 400
+show
+saque 0 10
+saque 3 50
+saque 5 10
+show
+transf 3 5 200
+show
+transf 1 2 100
+end
