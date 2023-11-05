@@ -1,0 +1,14 @@
+show
+nwdis fup poo aps
+nwalu alice edson bruno
+show
+tie bruno fup aps poo
+tie edson poo
+show
+untie bruno poo aps
+rmalu alice
+rmalu bruno
+show
+rmdisc poo
+show
+end
