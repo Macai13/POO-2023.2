@@ -72,7 +72,6 @@ public class Sistema
     {
         for (String idDiscp : keys)
         {
-            System.out.println(alunos.get(idAluno));
             alunos.get(idAluno).rmDiscp(idDiscp);
             discps.get(idDiscp).rmAluno(idAluno);
         }
@@ -82,7 +81,6 @@ public class Sistema
     {
         for (String idAluno : keys)
         {
-            System.out.println(alunos.get(idAluno));
             alunos.get(idAluno).rmDiscp(idDiscp);
             discps.get(idDiscp).rmAluno(idAluno);
         }
