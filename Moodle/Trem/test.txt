@@ -1,0 +1,19 @@
+init 5
+la
+nwvag 3
+la
+nwvag 2
+la
+entrar sasa
+entrar jonas
+entrar mary
+entrar anny
+entrar ajr
+entrar bruh
+la
+sair sasa
+sair goku
+la
+cadastro
+movimentacao
+end
