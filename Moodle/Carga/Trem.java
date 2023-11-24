@@ -135,6 +135,7 @@ public class Trem
     
     public void addItem(String nome, float weight)
     {
+        cadastro(nome + ":" + weight);
         cargos.get(0).addItem(nome, weight);
         movimentacoes(nome + ":" + weight, "in");
     }
