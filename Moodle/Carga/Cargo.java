@@ -3,7 +3,6 @@ import java.util.*;
 public class Cargo
 {
     private float capacity;
-    private float leftover = 0;
     private ArrayList<Item> items;
     
     Cargo(float capacity)
@@ -47,7 +46,6 @@ public class Cargo
     
     public void removeItem(int index)
     {
-        leftover = items.get(index).getWeight() / 2;
         items.remove(index);
     }
     
@@ -60,6 +58,6 @@ public class Cargo
             weight += i.getWeight();
         }
         
-        return capacity - weight - leftover;
+        return capacity - weight;
     }
 }
